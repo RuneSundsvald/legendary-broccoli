@@ -1,0 +1,10 @@
+insert into dbo.elev(fornavn,efternavn,adresse,post_nr,klasseNavn)
+values
+('Bo','Andersen','Gammel Byvej 12','2650','4D'),
+('Frederikke','Hansen','Amager Boulevard 5','2300','1A'),
+('Jens','Mikkelsen','Lily Brogbergs Vej 17 ','2500','9B'),
+('Philip','Mortensen','Brunevang 90','2610','4D'),
+('Kasper','Frederiksen','Bryggertorvet32','3650','1A'),
+('Milla','Jørgensen','Virum Torv 25','2830','9B'),
+('Fie','Kudsen','Allen 85','2770','4D'),
+('Henrik','Madsen','Lily Brobergs Vej53','2500','1A');
