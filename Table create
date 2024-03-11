@@ -8,3 +8,18 @@ adresse varchar(255),
 post_nr int REFERENCES PostNrBy(Postnr),
 klasseNavn varchar(255)REFERENCES Klasse(klasse)
 );
+
+CREATE TABLE laerer(
+laerer_id int PRIMARY KEY IDENTITY (1,1),
+fornavn varchar(255),
+efternavn varchar(255),
+adresse varchar(255),
+post_nr int REFERENCES PostNrBy(Postnr),
+klasseNavn varchar(255)REFERENCES Klasse(klasse)
+);
+
+
+CREATE TABLE Klasse(
+klasse_id int PRIMARY KEY IDENTITY (1,1),
+klasse varchar(255)
+);
