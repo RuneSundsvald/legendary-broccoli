@@ -1,0 +1,10 @@
+USE TEC;
+
+CREATE TABLE elev(
+elev_id int PRIMARY KEY IDENTITY (1,1),
+fornavn varchar(255),
+efternavn varchar(255),
+adresse varchar(255),
+post_nr int REFERENCES PostNrBy(Postnr),
+klasseNavn varchar(255)REFERENCES Klasse(klasse)
+);
