@@ -1,0 +1,8 @@
+--det kan se sådan her ud--
+SELECT TOP (1000) [elev_id]
+      ,[fornavn]
+      ,[efternavn]
+      ,[adresse]
+      ,[post_nr]
+      ,[klasseNavn]
+  FROM [TEC].[dbo].[elev]
